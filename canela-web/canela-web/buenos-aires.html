@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buenos Aires · CANELA</title>
+  <meta name="description" content="Visitá Canela en Honduras 4821, Palermo Soho, Buenos Aires.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="buenos-aires">
+  <div id="site-header"></div>
+
+  <main class="map-page">
+    <h1 class="sr-only">Canela en Buenos Aires</h1>
+    <div class="map-frame">
+      <iframe title="Mapa de Canela en Honduras 4821, Palermo Soho"
+        src="https://www.google.com/maps?q=Honduras+4821,+C1414+Buenos+Aires,+Argentina&z=15&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+
+      <article class="place-card" id="placeCard">
+        <button class="x" id="closeCard" aria-label="Cerrar ficha">✕</button>
+        <img src="img/local-barra.jpg" alt="Barra de Canela con máquina de espresso, molinos y vasos apilados">
+        <div class="place-body">
+          <h2>Honduras 4821</h2>
+          <p class="muted">Palermo Soho</p>
+          <a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=Honduras+4821,+Buenos+Aires,+Argentina" target="_blank" rel="noopener">Indicaciones</a>
+          <ul class="place-info">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7.1 7-12.5A7 7 0 0 0 5 9.5C5 14.9 12 22 12 22Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+              Honduras 4821, C1414BMM Cdad. Autónoma de Buenos Aires, Argentina</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              Mar a dom · 8 a 20 h</li>
+          </ul>
+          <p class="pager"><span>←</span> 1 de 1 <span>→</span></p>
+        </div>
+      </article>
+      <button class="show-card" id="showCard" hidden>Ver Canela</button>
+    </div>
+
+    <section class="local-gallery strip" aria-labelledby="galTitle">
+      <h2 id="galTitle">Así es el local</h2>
+      <p>Martes a domingo de 8 a 20 h. Te esperamos con rolls recién horneados.</p>
+      <div class="gallery-grid">
+        <figure><img src="img/local-barra-azulejos.jpg" alt="Barra de azulejos terracota con estantes de madera" loading="lazy"><figcaption>La barra</figcaption></figure>
+        <figure><img src="img/local-revistas.jpg" alt="Estante con revistas sobre pared de microcemento y una mesita con café" loading="lazy"><figcaption>Revistas para hojear</figcaption></figure>
+        <figure><img src="img/local-menu-pared.jpg" alt="El menú pintado en la pared junto a la máquina de espresso" loading="lazy"><figcaption>El menú en la pared</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

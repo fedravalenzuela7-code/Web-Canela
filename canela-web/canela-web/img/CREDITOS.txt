@@ -1,0 +1,15 @@
+﻿Origen de las imágenes
+
+Recortadas del mockup "Mock Up - Fedra Valenzuela.pdf":
+  roll.png, local-barra.jpg, nosotros-sillas.jpg, nosotros-amigas.jpg,
+  cafe-dolce.jpg, cafe-twelve.jpg, cafe-codos.jpg, ceramica-*.jpg
+
+Imágenes de marca propias (subidas al chat):
+  merch-*.jpg (recortes de la lámina de merch), stickers-hoja.jpg,
+  sticker-*.png (recortes de la lámina de stickers, con fondo transparente),
+  local-barra-azulejos.jpg, local-revistas.jpg, local-menu-pared.jpg
+
+Descargada de Unsplash (licencia gratuita de Unsplash):
+  fondo-pan.jpg   https://unsplash.com/photos/photo-1783453412446-19757488374a
+
+Las manos del footer y las espirales del menú están dibujadas en SVG dentro de js/app.js.
